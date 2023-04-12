@@ -1,0 +1,19 @@
+package lab_1;
+
+public class Test {
+	public static void main(String[] args) {
+		SanPham sp=new SanPham();
+		sp.nhap();
+		System.out.println(sp);
+		
+		SanPham sp1=new SanPham();
+		sp1.nhap();
+		System.out.println(sp1);
+		
+		SanPham sp2=new SanPham("Thanh Nhi",10000,500);
+		System.out.println(sp2);
+		
+		SanPham sp3=new SanPham("Hồ Khanh",5000);
+		System.out.println(sp3);
+	}
+}
