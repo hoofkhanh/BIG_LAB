@@ -1,0 +1,12 @@
+package lab_2;
+
+
+public class Test_Bai_1 {
+	public static void main(String[] args) {
+		DanhSachSoThuc list=new DanhSachSoThuc();
+		list.nhap();
+		list.xuat();
+		list.tinhTong();
+	}
+	
+}
